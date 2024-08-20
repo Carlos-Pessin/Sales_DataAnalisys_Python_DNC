@@ -11,7 +11,7 @@ The client requested the following information:
 
 
 # Dataset:
-1. Sales base:
+1. Sales data:
    Description of sales made over a period of one month
    - Purchase ID
    - Sales channel ID
@@ -24,7 +24,7 @@ The client requested the following information:
    - Customer LOG
 
    
-2. Customer
+3. Customer data:
    Provides more information about customers
    - Customer
    - Age
