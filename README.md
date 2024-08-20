@@ -12,24 +12,23 @@ The client requested the following information:
 
 # Dataset:
 1. Sales base:
-Description of sales made over a period of one month
-- Purchase ID
-- Sales channel ID
-- Brand
-- Date
-- Price
-- Price with shipping
-- Department name
-- State
-- Customer LOG
-Customer base: 
+   Description of sales made over a period of one month
+   - Purchase ID
+   - Sales channel ID
+   - Brand
+   - Date
+   - Price
+   - Price with shipping
+   - Department name
+   - State
+   - Customer LOG
 
    
 2. Customer
-Provides more information about customers
-- Customer
-- Age
-- Income
+   Provides more information about customers
+   - Customer
+   - Age
+   - Income
 
 
 All null values in the 'State' field must be replaced with 'MS'.
