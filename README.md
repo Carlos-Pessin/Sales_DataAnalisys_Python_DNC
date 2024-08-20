@@ -1,4 +1,4 @@
-# DNC_DataAnalisys_Python_Case1 - Análise de vendas
+# Sales_DataAnalisys_Python_DNC - Análise de vendas
 First case from my training in Data Analisys with Python - DNC
 
 # Case:
