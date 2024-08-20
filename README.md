@@ -1,33 +1,40 @@
-# Sales_DataAnalisys_Python_DNC - Análise de vendas
-First case from my training in Data Analisys with Python - DNC
+# Sales Data Analisys Python - Escola DNC
+First case from my training in Data Analisys with Python - Escola DNC
 
 # Case:
-Cliente solicitou as seguintes informações
-- Número de vendas por dia
-- Número de vendas e preço médio por departamento
-- Idade média dos clientes de acordo com a bandeira comprada
-- Qual a renda média dos clientes que compraram no último mês
+The client requested the following information:
 
-# Detalhe sobre o banco de dados:
-1. Base de vendas: descrição das vendas realizadas no período de um mês
-   - ID compra
-   - ID canal venda
-   - Bandeira
-   - Data
-   - Preço
-   - Preço com frete
-   - Nome do departamento
-   - Estado
-   - Cliente LOG  
-2. Base de clientes: apresenta mais informações sobre os clientes
-   - Cliente
-   - Idade
-   - Renda
-
-- Todos os valores nulos no campo "Estado" devem ser substituídos por "MS".
-- Não é aceitável que vendas tenham o campo "Preço" maior do que o campo "Preço com frete", caso haja alguma venda nesse caso, desonsiderar.
+- Number of sales per day
+- Number of sales and average price per department
+- Average age of customers according to the brand purchased
+- What is the average income of customers who purchased in the last month
 
 
-# Execução:
-Foram utilizadas as bibliotecas pandas para tratamento dos dados e plotly.express para visualização
+# Dataset:
+1. Sales base:
+Description of sales made over a period of one month
+- Purchase ID
+- Sales channel ID
+- Brand
+- Date
+- Price
+- Price with shipping
+- Department name
+- State
+- Customer LOG
+Customer base: 
+
+   
+2. Customer
+Provides more information about customers
+- Customer
+- Age
+- Income
+
+
+All null values in the 'State' field must be replaced with 'MS'.
+It is not acceptable for sales to have the 'Price' field greater than the 'Price with shipping' field; if there is any sale in this case, disregard it.
+
+# Execution:
+The Pandas library was used for data processing, and Plotly Express for visualization."
 
